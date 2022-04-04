@@ -1,0 +1,383 @@
+@chart "UTF-8"
+
+/*通用設定*/
+html {
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #eff0f0;
+    font-family: Arial, "Open Sans", sans-serif, verdana, "Microsoft JhengHei", "微軟正黑體", "Heiti TC", "Helvetica Neue", Helvetica;
+    background-color: #143441;
+    font-size: 1.8rem;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+    /*    border: 1px solid #000;*/
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.col-padding {
+    padding: 0;
+    margin: 0;
+    /* border:0; */
+}
+
+a:link,
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-right > li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+
+}
+
+a:hover {
+    color: #f9dd21;
+    text-decoration: none;
+}
+
+a:active {
+    color: #f9dd21;
+    text-decoration: none;
+}
+
+body a {
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -o-transition: .5s all;
+    -moz-transition: .5s all;
+    -ms-transition: .5s all
+}
+
+.header_logo {
+    left: 15px;
+    z-index: 100;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+
+}
+
+section {
+    width: 100%;
+}
+
+section:nth-child(even) {
+    background: #0b1f29;
+}
+
+p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.container_bottom {
+    margin-bottom: 50px;
+}
+h1 {
+    font-size: 4rem;
+    color: #fee300;
+    border-left: 5px solid #fee300;
+    padding-left: 5px;
+    font-weight: 700;
+}
+.h1_video{
+    font-size: 3.6rem;
+    color: #fee300;
+    border-left: 0px solid #fee300;
+    padding-left: 5px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+h2 {
+    font-size: 2.5rem;
+    color: #fee300;
+    border-left: 5px solid #fee300;
+    padding-left: 5px;
+    font-weight: 700;
+}
+
+.h2-medium {
+    font-size: 2rem;
+}
+
+.hr_title {
+    border: 1px solid;
+}
+
+h3 {
+    font-size: 2rem;
+    color: #f1d904;
+    margin-top: 30px;
+    padding-left: 5px;
+    font-weight: 600;
+    border-left: 5px solid #ffc145;
+}
+
+.caption {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin: 10px 20px 0;
+    text-align: center;
+    
+}
+.note {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin: 10px 0px 0px 0; 
+    padding-left: 100px;
+    
+    
+}
+
+footer {
+    text-align: center;
+}
+
+/*通用設定*/
+.op {
+    margin-top: 50px;
+    color: #b8c7cc;
+    text-align: center;
+}
+
+.forword {
+    margin: 20px 10px 0;
+    padding: 40px;
+    background: url(../img/quter_1.png) top left no-repeat,
+        url(../img/quter_2.png) bottom right no-repeat;
+}
+.box{
+    max-width:600px;
+    margin: 50px auto 0;
+    border-bottom: solid 30px yellow;
+    margin-bottom: 50px;
+    width:90%;
+}
+.box-content{
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    font-size: 2.5rem;font-weight: 700;
+    line-height: 2.5rem;
+/*
+    background: url(../img/box-top.png) top right no-repeat,
+        url(../img/box-bottom.png) bottom left no-repeat;
+*/
+}
+.content {
+    margin: 0 auto 30px;
+    padding: 10px;
+}
+.content1 {
+    margin: 0 auto 0px;
+    padding: 10px;
+}
+
+.tit_block {
+    width: 80%;
+    margin: 0 auto 0;
+}
+
+.video_padding {
+    padding: 15px;
+}
+
+.video_block {
+    margin-top: 30px;
+}
+
+.mian_pict {
+    margin-top: 20px;
+}
+
+/*
+.video_tit {
+    margin-top: 20px;
+    font-size: 2.2rem;
+    color: #f1d904;
+    padding-left: 5px;
+    font-weight: 700;
+}
+*/
+.h2_video {
+    width: 90%;
+    font-size: 2rem;
+    color: #f1d904;
+    border-left: 5px solid #fee300;
+    padding-left: 5px;
+    font-weight: 700;
+}
+
+.btn-primary {
+    background-color: transparent;
+    text-align: right;
+
+}
+
+.read_more {
+    float: right;
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+    color: #56c5ea;
+    font-weight: 700;
+    padding: 0;
+    background-color: transparent;
+}
+
+.read_more:visited {
+    color: #ace2ff;
+    text-decoration: none;
+}
+
+.read_more:hover {
+    color: #ace2ff;
+    text-decoration: none;
+}
+
+.read_more:active {
+    color: #ace2ff;
+    text-decoration: none;
+}
+
+.goodthing {
+    margin-left: 25px;
+}
+
+.doing {
+
+    font-size: 2.1rem;
+    line-height: 2;
+    font-weight: 700;
+
+    padding: 50px;
+    background: url(../img/quter_1.png) top left no-repeat,
+        url(../img/quter_2.png) bottom right no-repeat;
+}
+.sub-title{
+    max-width: 60%;
+}
+.pie {
+    margin-left: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.brain {
+    max-height: 200px;
+    vertical-align: top;
+}
+.pen-end{
+    max-height: 200px;
+    vertical-align: bottom;
+}
+.talk_list{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+    .navbar-right > li {
+        border-bottom: 0px solid rgba(255, 255, 255, 0.5);
+
+    }
+
+    .forword {
+        margin: 20px 100px 0;
+        padding: 40px;
+        background: url(../img/quter_1.png) top left no-repeat,
+            url(../img/quter_2.png) bottom right no-repeat;
+    }
+
+    .content {
+        margin: 0px auto 30px;
+        padding: 10px 50px 10px;
+    }
+
+    .brain {
+        max-height: 300px;
+        float: right;
+       
+    }
+    
+    
+}
+@media (max-width: 768px) {
+    h1 {
+    font-size: 2.2rem;
+    color: #fee300;
+    border-left: 5px solid #fee300;
+    padding-left: 5px;
+    font-weight: 700;
+    line-height: 1.5;    
+}
+    .sub-title{
+    max-width: 100%;
+}
+    .note {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin: 10px 0px 0px 0; 
+    padding-left:25px;
+    
+    
+}
+    .h1_video{
+    font-size: 2.2rem;
+    color: #fee300;
+    border-left: 0px solid #fee300;
+    padding-left: 5px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+    .box{
+    max-width:350px;
+    margin: 50px auto 0;
+    border-bottom: solid 20px yellow;
+    margin-bottom: 50px;
+    width:90%;
+}
+.box-content{
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    font-size: 2rem;font-weight: 700;
+/*
+    background: url(../img/box-top.png) top right no-repeat,
+        url(../img/box-bottom.png) bottom left no-repeat;
+*/
+}
+}

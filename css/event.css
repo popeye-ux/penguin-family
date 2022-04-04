@@ -1,0 +1,112 @@
+.navbar_bgcolor {
+    background-color: #284a7e;
+    margin: 0;
+    border: 0;
+    max-height: 50px;
+    border-radius: 0;
+}
+
+.navbar-brand {
+    padding-top: 5px;
+}
+
+.navbar-toggle {
+    margin: 8px;
+    padding-top: 11px;
+}
+
+/* .container-fluid-padding{
+    padding: 0;
+}  */
+.navbar .icon-bar {
+    background-color: rgb(255, 255, 255, 0.5);
+    width: 26px;
+    height: 3px;
+    /*  border:1px solid #000; */
+    border-radius: 2px;
+}
+
+.navbar-header {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.navbar-toggle {
+    margin: 3px;
+}
+
+.navbar-collapse {
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: #284a7e;
+    /* margin-bottom: 0; */
+}
+
+.navbar-nav > li > a:link {
+    /*    margin-top: 25px;*/
+    font-size: 1.5rem;
+    color: #ffffff;
+    padding-right: 5px;
+}
+
+.navbar-nav > li > a:hover {
+    /*    margin-top: 25px;*/
+    font-size: 1.5rem;
+    color: #a1dbff;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.container-fluid-padding {
+    padding: 0;
+}
+
+.navbar ul li {
+    padding-left: 10px;
+}
+
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #2c3b64;
+    border-color: #337ab7;
+}
+.dropdown-menu{
+    background-color: #2c3b64;
+    color:#fff;
+}
+.dropdown-menu>li>a{
+    color:#fff;
+}
+.store{
+    margin: 10px auto 0;
+}
+/* 下載app */
+.download{
+    padding-bottom: 40px;
+}
+.download-title{
+    text-align: center;font-size:25px; font-weight:700;margin-top: 20px;margin-bottom: 30px;
+}
+.ios{
+    margin: 0 auto 0;
+}
+@media (max-width: 768px) {
+    .android-block {
+    width:180px;
+    margin-left: 100px;
+    display:inline-block;
+}
+    .navbar ul li {
+    padding-left: 30px;
+}
+    .navbar-right {
+
+        margin-right: 15px;
+    }
+
+ .nav>li>a {
+    position: relative;
+    display: block;
+    padding-left: 2px;
+    padding-right:5px;
+   
+}
+}
